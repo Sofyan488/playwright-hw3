@@ -25,7 +25,7 @@ test('checkout product', async ({ page }) => {
 
   await checkoutPage.checkoutInfo(
     'Sofyan',
-    'Test',
+    'Alawneh',
     '12345'
   );
 
