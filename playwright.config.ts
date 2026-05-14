@@ -16,13 +16,13 @@ export default defineConfig({
 
   reporter: 'html',
 
-  timeout: 60000,
+  timeout: 120000,
 
   use: {
     headless: false,
 
     launchOptions: {
-      slowMo: 1000,
+      slowMo: 3000,
     },
 
     trace: 'on-first-retry',
