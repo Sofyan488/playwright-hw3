@@ -19,6 +19,7 @@ export default defineConfig({
   timeout: 120000,
 
   use: {
+    
     headless: false,
 
     launchOptions: {
@@ -59,6 +60,7 @@ export default defineConfig({
 
       use: {
         ...devices['Desktop Firefox'],
+        storageState: 'playwright/.auth/user.json',
       },
     },
 
