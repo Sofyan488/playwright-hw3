@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 
+test.use({ storageState: undefined });
+
 test.beforeEach(async ({ page }) => {
 
   await page.goto('https://www.saucedemo.com/');
